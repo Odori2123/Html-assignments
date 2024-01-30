@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Profile Card</title>
+        
+    </head>
+    <body>
+        <Style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+
+            }
+            body{
+                font-family: "IBM Plex Mono", monospace, sans-serif;
+            }
+            .card{
+                Width: 500px;
+                border: 4px solid black;
+                Margin: 40px;
+                background-color;
+
+            }
+            h1 {
+                margin-bottom: 14px
+            }
+            img {
+                Width: 100%;
+                display: block;
+
+            }
+            .data{
+                padding: 32px;
+            }
+            .skill-list{
+                list-style: none;
+                display: flex;
+                gap: 8px;
+                flex-wrap: wrap;
+                margin-top: 16px;
+            }
+            li {
+                /* padding-top: 2px;
+                padding-buttom: 2px;
+                padding-left: 10px;
+                padding-right: 10px; */
+                padding: 2px 11px;
+                border-radius: 5px;
+            }
+
+            li:nth-child(odd) {
+                background-color: crimson;
+            }
+            li:nth-child(even) {
+                background-color: yellowgreen;
+            }
+        </Style>
+
+        <div class="Card">
+            <img src="https://img.freepik.com/premium-photo/high-angle-portrait-modern-black-businessman-working-home-analyzing-documents-with-data-co_236854-38470.jpg?w=740" 
+            alt="Data Analyst"/>
+
+            <div class="data">
+                <div class="intro">
+                    <h1>Uzhieyeka Mike</h1>
+                    <p>
+                        Data analytics is the process of 
+                        analyzing raw data in order to draw 
+                        out meaningful, actionable insights,
+                        which are then used to inform 
+                        and drive smart business decisions.
+                        A data analyst will extract raw 
+                        data, organize it, and then analyze it, transforming it from 
+                        incomprehensible numbers into 
+                        coherent, intelligible information.
+                        Having interpreted the data, the 
+                        data analyst will then pass on
+                        their findings in the form of 
+                        suggestions or recommendations about 
+                        what the company's next steps should be.
+                    </p>
+                    </div>
+                    <ul class="skill-list">
+                        <li>Visualisation</li>
+                        <li>Ms Excel</li>
+                        <li>Power BI</li>
+                        <li>Tableau</li>
+                        <li>Statistics</li>
+                        <li>Python</li>
+                        <li>Communication</li>
+
+                    </ul>
+                    </div>
+                    </div>
+    </body>
+</html>
